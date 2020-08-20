@@ -26,7 +26,7 @@ class CheckCallException(Exception):
 
 
 
-class CheckCall:
+class SmsApi:
     session: aiohttp.ClientSession
     response_code: Dict[int, str]
 
