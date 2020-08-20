@@ -71,4 +71,4 @@ class SmsApi:
                     return re_list
                 return None
             logger.error(f"servis have status {response.status}")
-            raise 
+            raise CheckCallException
